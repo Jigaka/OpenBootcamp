@@ -1,6 +1,8 @@
 #configuraciones de vscode
 .vscode
 
+
+
 # Compiled class file
 *.class
 
@@ -52,6 +54,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+__pycache__
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
