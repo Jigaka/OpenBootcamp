@@ -1,0 +1,26 @@
+img {
+    height: 300px;
+}
+
+img:not(.detalle):hover{
+    filter: opacity(80%);
+}
+
+img.detalle {
+    height: 250px;
+    cursor: pointer;
+}
+
+table {
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+}
+
+main {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+}

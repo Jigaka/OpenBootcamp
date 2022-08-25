@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+
+{% block title %}Director - {{ director }}{% endblock %}
+
+{% block header-title %}{{ director }}{% endblock %}
+
+{% block content %}
+<img class="detalle" src="{{ director.fotoURL }}" alt="Foto de {{ director }}" ><br>
+<h4>Peliculas</h4>
+<table>
+    <tr>
+    {% for pelicula in director.pelicula_set.all %}
+        <td onclick="window.location.href='/pelicula/{{pelicula.id}}'">
+            <img src="{{ pelicula.portadaURL }}" alt="Portada de {{ pelicula }}"><br>
+            <span class="nombre_pelicula">{{ pelicula }}</span>
+        </td>
+        {% cycle '' '' '</tr><tr>' %}
+    {% empty %}
+        <td>No hay peliculas aún</td>
+    {% endfor %}
+    </tr>
+</table>
+{% endblock %}
