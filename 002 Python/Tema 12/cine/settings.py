@@ -9,6 +9,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# A modo de comentario u observacion, este archivo settings.py no debe
+# subirse a repositorios remotos, debe incluirse en el .gitignore
+# lo subi por si querian ver que realize la inclusion de la app
+# pelicula nada mas
 SECRET_KEY = 'django-insecure-pod3!ie8qnx08357f@*e(5ow*%u#ke4+mt!iz44hh#s0&j4^an'
 
 # SECURITY WARNING: don't run with debug turned on in production!
