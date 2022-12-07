@@ -1,0 +1,147 @@
+body{
+    background-color: #161717;
+    color: white;
+}
+
+.signup-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 450px;
+    gap: 45px;
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+/* inicio Botones de redes */
+.btn-redes{
+    display: flex;
+    gap: 12px;
+}
+
+
+.btn-redes-google{
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-redes-google:hover{
+    opacity: 0.75;
+}
+
+.btn-redes-twitter{
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-redes-twitter:hover{
+    opacity: 0.75;
+}
+/* fin de botones de redes */
+
+
+/* Inicio de linea divisoria */
+.division{
+    display: flex;
+    gap: 12px;
+}
+
+.division hr{
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 0.75;
+}
+/* Fin de linea divisoria */
+
+
+/* Inicio de form */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 55px;
+}
+
+.separate{
+    width: 10px;
+}
+
+.form-group{
+    display: flex;
+    gap: 20px;
+}
+
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.form-field-checkbox{
+    display: flex;
+    gap: 10px;
+}
+/* Fin de form */
+
+/* Inicio Boton create account */
+.btn-create{
+    display: flex;
+    margin: auto;
+}
+
+.btn-create-account{
+    text-decoration: none;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+
+.btn-create-account:hover{
+    opacity: 0.75;
+}
+/* Fin Boton create account */
+
+.form-field-checkbox input[type="checkbox"]{
+    width: 15px;
+    padding: 2px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    background-color: #212121;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 16px;
+    color: white;
+    transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+}
+
+input:hover{
+    background-color: #454045;
+}
+
+input:focus{
+    background-color: #454045;
+}
