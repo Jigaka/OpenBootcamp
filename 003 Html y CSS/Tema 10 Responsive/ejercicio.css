@@ -1,0 +1,35 @@
+.contenedor{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.principal{
+    flex-grow: 1;
+    border: solid 1px pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px pink;
+}
+
+
+@media (max-width: 640px){
+
+    .principal{
+        order: -1;
+    }
+
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .barra-lateral{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
